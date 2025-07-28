@@ -1,11 +1,13 @@
 {
-  "extends": ["config:base"],
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
   "packageRules": [
     {
       "matchPackageNames": ["httpx", "requests"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "dependencies",
-      "matchManagers": ["pep621"]
+      "matchManagers": ["pep621"],
+      "enabled": true
     }
   ]
 }

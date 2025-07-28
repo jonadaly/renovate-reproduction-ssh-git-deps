@@ -10,5 +10,5 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-httpx = { git = "ssh://git@github.com/encode/httpx", tag = "0.28.1" }
-requests = { git = "https://github.com/psf/requests", tag = "v2.32.4" }
+httpx = { git = "ssh://git@github.com/encode/httpx", tag = "0.28.0" }
+requests = { git = "https://github.com/psf/requests", tag = "v2.32.0" }

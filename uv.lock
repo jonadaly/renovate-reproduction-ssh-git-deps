@@ -84,8 +84,8 @@ wheels = [
 
 [[package]]
 name = "httpx"
-version = "0.28.1"
-source = { git = "ssh://git@github.com/encode/httpx?tag=0.28.1#26d48e0634e6ee9cdc0533996db289ce4b430177" }
+version = "0.28.0"
+source = { git = "ssh://git@github.com/encode/httpx?tag=0.28.0#80960fa31918d7663c3f4c3ad61661cf0e80628f" }
 dependencies = [
     { name = "anyio" },
     { name = "certifi" },
@@ -113,14 +113,14 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "httpx", git = "ssh://git@github.com/encode/httpx?tag=0.28.1" },
-    { name = "requests", git = "https://github.com/psf/requests?tag=v2.32.4" },
+    { name = "httpx", git = "ssh://git@github.com/encode/httpx?tag=0.28.0" },
+    { name = "requests", git = "https://github.com/psf/requests?tag=v2.32.0" },
 ]
 
 [[package]]
 name = "requests"
-version = "2.32.4"
-source = { git = "https://github.com/psf/requests?tag=v2.32.4#021dc729f0b71a3030cefdbec7fb57a0e80a6cfd" }
+version = "2.32.0"
+source = { git = "https://github.com/psf/requests?tag=v2.32.0#d6ebc4a2f1f68b7e355fb7e4dd5ffc0845547f9f" }
 dependencies = [
     { name = "certifi" },
     { name = "charset-normalizer" },
