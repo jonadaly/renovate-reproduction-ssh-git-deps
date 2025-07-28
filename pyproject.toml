@@ -1,0 +1,14 @@
+[project]
+name = "renovate-reproduction-ssh-git-deps"
+version = "0.1.0"
+description = "MRE for renovate SSH git deps issue"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx",
+    "requests"
+]
+
+[tool.uv.sources]
+httpx = { git = "ssh://git@github.com/projectdiscovery/httpx", tag = "v1.7.1" }
+requests = { git = "https://github.com/psf/requests", tag = "v2.32.4" }
