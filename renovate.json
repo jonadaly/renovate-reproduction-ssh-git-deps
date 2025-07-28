@@ -3,10 +3,14 @@
   "extends": ["config:recommended"],
   "packageRules": [
     {
-      "matchPackageNames": ["httpx", "requests"],
-      "matchUpdateTypes": ["minor", "patch"],
+      "matchDepPatterns": [".*"],
+      "enabled": false
+    },
+    {
+      "matchDepNames": [
+        "httpx",
+        "requests"],
       "groupName": "dependencies",
-      "matchManagers": ["pep621"],
       "enabled": true
     }
   ]
