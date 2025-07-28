@@ -8,6 +8,7 @@
     },
     {
       "matchDepNames": [
+        "aiohttp",
         "httpx",
         "requests"],
       "groupName": "dependencies",
