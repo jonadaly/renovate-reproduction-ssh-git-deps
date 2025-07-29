@@ -17,4 +17,4 @@ Renovate should update the git dependencies to the latest available version.
 
 ## Link to the Renovate issue or Discussion
 
-
+https://github.com/renovatebot/renovate/discussions/37207
