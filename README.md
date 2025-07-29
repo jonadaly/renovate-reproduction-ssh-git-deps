@@ -1,8 +1,8 @@
-Minimal reproduction for renovate git deps issue.
+Minimal reproduction for renovate git deps issue with SSH + tag.
 
 ## Current behavior
 
-Renovate does not update the git dependencies in `pyproject.toml` that are specified via tag, and instead produces the following error:
+Renovate does not update the git dependencies in `pyproject.toml` that are specified via SSH and tag, and instead produces the following error:
 
 ```
 ERROR: Request Error: cannot parse url (repository=jonadaly/renovate-reproduction-ssh-git-deps)
