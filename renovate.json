@@ -8,9 +8,12 @@
     },
     {
       "matchDepNames": [
-        "aiohttp",
         "httpx",
-        "requests"],
+        "requests",
+        "urllib3",
+        "httplib2",
+        "aiohttp"
+      ],
       "groupName": "dependencies",
       "enabled": true
     }
