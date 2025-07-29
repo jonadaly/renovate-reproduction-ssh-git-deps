@@ -380,7 +380,7 @@ requires-dist = [
     { name = "aiohttp", specifier = "==3.12.0" },
     { name = "httpx", git = "ssh://git@github.com/encode/httpx?tag=0.28.0" },
     { name = "requests", git = "https://github.com/psf/requests?tag=v2.32.0" },
-    { name = "urllib3", git = "https://github.com/urllib3/urllib3?rev=2.5.0" },
+    { name = "urllib3", git = "https://github.com/urllib3/urllib3?rev=2.4.0" },
 ]
 
 [[package]]
@@ -414,8 +414,8 @@ wheels = [
 
 [[package]]
 name = "urllib3"
-version = "2.5.0"
-source = { git = "https://github.com/urllib3/urllib3?rev=2.5.0#aaab4eccc10c965897540b21e15f11859d0b62e7" }
+version = "2.4.0"
+source = { git = "https://github.com/urllib3/urllib3?rev=2.4.0#a5ff7ac3bbb8659e2ec3ed41dd43889f06a7d7bc" }
 
 [[package]]
 name = "yarl"
